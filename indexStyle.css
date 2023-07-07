@@ -1,0 +1,208 @@
+.navbar{
+    background-color: #f5f4f4;
+}
+.nav-img-log{
+    display: flex;
+}
+.nav-img-log img{
+    max-width: 70px;
+    border-radius: 10px;
+    margin-right: 5px;
+    /* margin-left: -50px; */
+    
+}
+.nav-link{
+    font-weight: bold;
+    font-size: x-large;
+}
+.dropdown-item{
+    font-weight: bold;
+    font-size: large;
+}
+.navbar-nav li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrapper{
+    width: 100%;
+    /* background-color: #f5f4f4; */
+    margin-top: 5rem;
+}
+#image--side{
+    margin-left: -10px;
+} 
+.background--image{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.background--image:hover{
+    background-color: #fff;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+.background--image img{
+    width: 90%;
+}
+.zobo--TittleText{
+    margin-top: 5rem;
+}
+.zobo--TittleText h1{
+    font-family: Impact;
+    font-size: 6rem;
+}
+.zobo--TittleText h1 small{
+    font-family: Impact;
+    color: blue;
+}
+.zobo--TittleText p{
+    font-family: Georgia;
+    font-size: 3rem;
+} 
+.TIGERNUTS-section{
+    background-color: #f5f4f4;
+    font-size: 21px;
+    font-family: arial;
+    padding-top: 2rem;
+    /* margin-bottom: 2rem; */
+}
+.GINGER-section{
+    background-color: #000000;
+    color: #fff;
+    font-size: 21px;
+    font-family: arial;
+    padding-top: 2rem;
+}
+#ginger-image{
+    height: 25rem;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#ginger-image img{
+    margin-top: 2rem;
+
+    animation-name: ginger;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+@keyframes ginger{
+    30%{
+        transform: rotate(20deg);
+        -webkit-transform: rotate(20deg);
+        -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+        -o-transform: rotate(20deg);
+}
+    50%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    80%{
+        transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+        -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+        -o-transform: rotate(-20deg);
+}
+}
+.TIGERNUTS-section h2, .GINGER-section h2{
+    font-weight: bolder;
+    font-family: Georgia;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+#Someproduct-wrapper div{
+    display: flex;
+    cursor: pointer;
+}
+#Someproduct-wrapper img:hover{
+    opacity: .6;
+}
+.Productview-btn{
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Productview-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia;
+    display: block;
+}
+@media screen and (min-width:767px) and (max-width:1023px){
+    #image--side{
+        margin-left: 0px;
+    }
+    .zobo--TittleText{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:767px){
+    #image--side{
+        margin-left: 0px;
+    }
+    .zobo--TittleText{
+        margin-top: 1rem;
+    }
+    .background--image{
+        margin-top: 2rem;
+    }
+    .background--image img{
+        width: 100%;
+    }
+    .zobo--TittleText h1{
+        font-family: Impact;
+        font-size: 5rem;
+    }
+    .background--image img{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .Productview-btn{
+        padding: 0px 2px 0px 2px;
+        margin-top: 3px;
+        margin-left: 3px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .Productview-btn a{
+        font-size: small;
+    }
+    #ginger-image{
+        height: 20rem;
+    }
+}
